@@ -9,6 +9,7 @@ It is a complete browser automation (End-to-End) solution which aims to simplify
 These scripts are run on a Windows server that has Nightwatch installed.
 
 To install nightwatch following instructions on this page:http://nightwatchjs.org/guide#installation
+
 Once nightwatch is installed together with it's pre-requisites you will be able to install the scripts on this page.
 
 Example way of running the scripts:  D:\Projects>node nightwatch.js -t tests/sample.js
@@ -17,8 +18,7 @@ Will generate these results if successful:
 
 Starting selenium server... started - PID:  3328
 
-[Sample] Test Suite
------------------
+Sample: Test Suite
 Running:  Demo test Google
  ? Element <body> was visible after 133 milliseconds.
  ? Element <button[name=btnG]> was visible after 96 milliseconds.
